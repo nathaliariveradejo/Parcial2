@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conceptos Clave</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>Conceptos Básicos</h1>
+            <p>Terminología fundamental para la comprensión de las Bases de Datos Relacionales</p>
+        </header>
+
+        <div class="caja">
+            <div class="navbar">
+                    <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="conceptos.html">Conceptos</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="aplicaciones.html">Aplicaciones</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+
+<div class="terminologia">
+<h2>Tabla / Relación:</h2>
+</div>   
+
+<div class="centrar">
+        <img src="IMG\bdrtabla.png">
+    </div>
+
+    <div class="contenido">
+        <p>Una tabla es
+            una colección de entradas de datos relacionadas y contiene filas y columnas
+            para almacenar datos. Cada tabla representa algunos objetos del mundo real,
+            como la persona, el lugar o el evento sobre el que se recopila información. La
+            recopilación organizada de datos en una tabla relacional se conoce como la
+            vista lógica de la base de datos.</p>
+
+    </div>
+<hr>
+    <div class="terminologia">
+        <h2>Fila / Registro:</h2>
+        </div>   
+        
+        <div class="centrar">
+                <img src="IMG\bdrregistro.png">
+            </div>
+        
+            <div class="contenido">
+                <p>Una fila de una tabla también se denomina registro o tupla. Contiene la
+                    información específica de cada entrada de la tabla. Es una entidad horizontal
+                    en la tabla.</p>
+        
+            </div>
+            <hr>
+            <div class="terminologia">
+                <h2>Columnas / Atributos:</h2>
+                </div>   
+                
+                <div class="centrar">
+                        <img src="IMG\bdrcolumna.png">
+                    </div>
+                
+                    <div class="contenido">
+                        <p>Una columna es una entidad vertical en la tabla que contiene toda la
+                            información asociada con un campo específico en una tabla.</p>
+                
+                    </div>
+                    <hr>
+                    <div class="terminologia">
+                        <h2>Grado:</h2>
+                        </div>   
+                        
+                        <div class="centrar">
+                                <img src="IMG\bdrgrado.png">
+                            </div>
+                        
+                            <div class="contenido">
+                                <p> Indica el tamaño de una relación en base al número de columnas (atributos)
+                                    de la misma. Lógicamente cuanto mayor es el grado de una relación o tabla,
+                                    mayor es su complejidad de manejo.</p>
+                        
+                            </div>
+                            <hr>
+                            <div class="terminologia">
+                                <h2>Cardinalidad:</h2>
+                                </div>   
+                                
+                                <div class="centrar">
+                                        <img src="IMG\bdrcardinalidad.png">
+                                    </div>
+                                
+                                    <div class="contenido">
+                                        <p> Número de tuplas de una relación, o número de filas de una tabla. Hay tablas
+                                            que pueden tener una enorme cardinalidad: cientos, miles e incluso millones
+                                            de filas. </p>
+                                
+                                    </div>
+                                    <hr>
+                                    <div class="terminologia">
+                                        <h2>Dominio:</h2>
+                                        </div>   
+                                        
+                                        <div class="centrar">
+                                                <img src="IMG\bdrdominio.png">
+                                            </div>
+                                        
+                                            <div class="contenido">
+                                                <p> El dominio se refiere a los posibles valores que puede contener cada atributo.
+                                                    El dominio dentro de la estructura del Modelo Relacional es el conjunto de
+                                                    valores que puede tomar un atributo. </p>
+                                        
+                                            </div>
+                                            <hr>
+                                            <div class="terminologia">
+                                                <h2>Claves:</h2>
+                                                </div>   
+                                                
+                                                <div class="centrar">
+                                                        <img src="IMG\bdrclaves.png">
+                                                    </div>
+                                                
+                                                    <div class="contenido">
+                                                        <p> Una clave permite identificar un conjunto de atributos suficiente para
+                                                            distinguir las entidades entre sí. También pueden ayudar a identificar
+                                                            unívocamente a las relaciones y así distinguir las relaciones entre sí. Existen 
+                                                        los siguientes tipos de claves: </p>
+                                                
+                                                
+                                                        <li><b>Clave candidata: </b>Conjunto de atributos que permiten identificar en
+                                                            forma única cada tupla de la relación. Es decir, columnas cuyos
+                                                            valores no se repiten para esa tabla.
+                                                            </li>
+                                                        <br>
+                                                        <li><b>Clave primaria:</b> Clave candidata que se escoge como identificador de
+                                                            las tuplas. Se elige primaria la candidata que identifique mejor a cada
+                                                            tupla en el contexto de la base de datos</li>
+                                                        <br>
+                                                        <li><b>Clave externa, ajena o foránea: </b>Atributo cuyos valores coinciden
+                                                            con una clave candidata (normalmente primaria) de otra tabla.</li>
+                                                  
+                                                      </div>
+
+
+    <footer>
+        <p>Por: Nathalia Rivera (20-58-7437) - Desarrollo de Software V</p>
+    </footer>
+</div>
+</body>
+</html>

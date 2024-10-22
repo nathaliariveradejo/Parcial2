@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>Historia de las Bases de Datos Relacionales</h1>
+            <p>Evolución del Almacenamiento de Datos</p>
+        </header>
+
+        <div class="caja">
+            <div class="navbar">
+                    <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="conceptos.html">Conceptos</a></li>
+                    <li><a href="historia.html">Historia</a></li>
+                    <li><a href="aplicaciones.html">Aplicaciones</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+        <div class="subtitulo">
+            <h2>Almacenamiento de Datos antes de las Bases de Datos</h2>
+        </div>
+
+    <div class="contenido">
+
+        <p><b>Archivos Secuenciales (1950s - 1960s):</b></p>
+            
+        <p>Antes de la aparición de las bases de datos, los sistemas de almacenamiento de datos eran muy rudimentarios. Los datos se almacenaban en archivos secuenciales que residían en cintas o discos magnéticos. Este método implicaba almacenar datos de manera lineal, lo que dificultaba la recuperación rápida de información.</p>  
+
+        <p><b>Archivos Indexados: </b> Con el tiempo, los archivos indexados comenzaron a reemplazar a los archivos secuenciales para mejorar el acceso. Se añadían índices que permitían acceder directamente a los registros deseados sin tener que leer todo el archivo. </p> 
+      
+    </div>
+<hr>
+    <div class="subtitulo">
+        <h2>Primeras Bases de Datos: Modelos Jerárquico y de Red (1960s)</h2>
+    </div>
+
+    <div class="contenido">
+        <p><b>Modelo Jerárquico: </b> Desarrollado por IBM en los años 60, el modelo jerárquico (ej. IMS – Information Management System) fue uno de los primeros sistemas de bases de datos estructuradas. En este modelo, los datos se organizaban en una estructura de árbol, donde cada "nodo padre" podía tener varios "nodos hijo", pero cada nodo hijo tenía un solo padre. Esto funcionaba bien para algunos escenarios, como la gestión de inventarios o registros de empleados, pero era inflexible para datos más complejos. </p>
+        <p><b>Modelo de Red:</b>Introducido en los años 60 por el CODASYL Data Base Task Group, el modelo de red fue un intento de superar las limitaciones del modelo jerárquico. Permitía que un "nodo hijo" tuviera más de un "nodo padre", creando una red más flexible de relaciones entre los datos. Sin embargo, su implementación era complicada, ya que los usuarios debían manejar explícitamente los punteros entre los registros, lo que hacía difícil su uso y mantenimiento.</p>
+
+    </div>
+<hr>
+    <div class="subtitulo">
+        <h2>Surgimiento del Modelo Relacional (1970s):</h2>
+    </div>
+
+    <div class="contenido">
+        <p><b>Propuesta de Edgar F. Codd:</b> En 1970, el matemático y científico de la computación Edgar F. Codd, que trabajaba en IBM, propuso el modelo relacional, una revolución en la forma en que se gestionaban los datos. En lugar de depender de estructuras jerárquicas o redes, Codd sugirió organizar los datos en tablas (relaciones) que podrían estar relacionadas entre sí mediante claves. Su enfoque estaba basado en teoría de conjuntos y lógica matemática, lo que simplificaba el manejo y la manipulación de los datos. </p>
+
+</div>
+        <hr>
+
+        <div class="subtitulo">
+            <h2>Desarrollo de los Primeros Sistemas Relacionales (1970s - 1980s):</h2>
+        </div>
+        <div class="contenido">
+            <p><b>Sistema R (1970s):</b> Tras la propuesta de Codd, IBM comenzó a trabajar en un sistema experimental conocido como Sistema R, que implementaba los conceptos del modelo relacional y sirvió como base para lo que más tarde sería SQL. Aunque inicialmente enfrentó resistencia debido a la simplicidad aparente del modelo, Sistema R demostró ser eficaz y flexible.</p>
+            <p><b>Ingres y Oracle (1977):</b> En paralelo, otros investigadores, como los del Proyecto Ingres en la Universidad de California, Berkeley, comenzaron a desarrollar sus propios sistemas basados en el modelo relacional. Este proyecto llevó al desarrollo de PostgreSQL. Al mismo tiempo, en 1977, Oracle lanzó la primera versión comercial de una base de datos relacional, lo que marcó el inicio de la era moderna de las bases de datos comerciales.</p>
+            <p><b>SQL (1980s):</b> A principios de los 80, SQL se convirtió en el lenguaje estándar de consulta para las bases de datos relacionales, gracias a su adopción por IBM en su sistema DB2 y por Oracle en sus bases de datos. SQL fue diseñado para ser un lenguaje de alto nivel que permitía a los usuarios realizar operaciones de consulta y manipulación de datos sin preocuparse por cómo estaban almacenados físicamente los datos.</p>
+
+        </div>
+<hr>
+        <div class="subtitulo">
+            <h2> Expansión y Estándares (1980s - 1990s):</h2>
+        
+        </div>
+
+        <div class="contenido">
+            <p><b>Auge de los Sistemas Relacionales Comerciales:</b> En los años 80 y 90, el modelo relacional se consolidó como el estándar de facto en la industria. Empresas como Oracle, IBM (DB2) y Microsoft (SQL Server) lanzaron sistemas relacionales robustos que se utilizaron ampliamente en aplicaciones empresariales.</p>
+            <p><b>MySQL y PostgreSQL:</b> En los años 90, surgieron alternativas de código abierto como MySQL (1995) y PostgreSQL (1996), que ofrecían una solución más accesible y flexible para desarrolladores y pequeñas empresas.</p>
+            <p><b>SQL como Estándar Internacional:</b> En 1986, ANSI adoptó SQL como estándar oficial para la consulta y manipulación de bases de datos relacionales, seguido por la ISO en 1987. Esto consolidó a SQL como el lenguaje universal para interactuar con bases de datos, lo que promovió la interoperabilidad entre diferentes sistemas.</p>
+        </div>
+<hr>
+        <div class="subtitulo">
+            <h2>Modernización y Desafíos (2000s - Actualidad):</h2>
+        </div>
+
+        <div class="contenido">
+            <p><b>Bases de Datos Distribuidas y en la Nube: </b>A medida que los volúmenes de datos crecieron, las bases de datos relacionales enfrentaron desafíos relacionados con la escalabilidad y distribución de datos. Aunque tradicionalmente estaban diseñadas para operar en un solo servidor, nuevas tecnologías como Google Spanner y Amazon Aurora comenzaron a ofrecer soluciones relacionales distribuidas capaces de escalar horizontalmente y funcionar en la nube.</p>
+            <p><b>Bases de Datos NoSQL: </b>A principios de la década de 2000, surgieron bases de datos NoSQL (ej. MongoDB, Cassandra) que abordaban algunas de las limitaciones de las bases de datos relacionales, especialmente para datos no estructurados y aplicaciones que requieren escalabilidad masiva. Aunque NoSQL ha ganado popularidad, las bases de datos relacionales siguen siendo ampliamente utilizadas, especialmente para aplicaciones con datos altamente estructurados y donde la consistencia es crítica.</p>
+        
+        </div>  
+        <div class="centrar">
+        <img src="IMG\bdrfinal.png">
+        </div>
+    </div>
+  
+    <footer>
+        <p>Por: Nathalia Rivera (20-58-7437) - Desarrollo de Software V</p>
+    </footer>
+</div>
+</body>
+</html>
